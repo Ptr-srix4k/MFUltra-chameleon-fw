@@ -18,7 +18,7 @@ uint32_t Addend = ((uint32_t)Buffer[2]) | ((uint32_t)Buffer[3] << 8) | ((uint32_
 5. Use linux to compile the firmare with the instructions present here https://github.com/iceman1001/ChameleonMini-rebooted/wiki/Compiling-Linux-(Unix)
 6. Upload the firmware on the ChameleonMini by following the instructions present here https://github.com/iceman1001/ChameleonMini-rebooted/wiki/Getting-started
 
-Instead of doing all this, i put the .eep and .hex files to upload in this repository.
+IInstead of doing all this, i put the .eep and .hex files to upload in this repository, so you can avoid all these steps.
 
 ## Dump
 You need to upload a dump of a Mifare Ultralight EV1 created with Proxmark3 (in that dump you will find the signature, version and counter values).  
